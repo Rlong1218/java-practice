@@ -3,7 +3,7 @@
 // Given tag and word strings, create the HTML string with tags around the word, e.g. "<i>Yay</i>"
 
 public class makeTags {
-  public String makeTags(String tag, String word) {
+  public static String makeTags(String tag, String word) {
     return "<" + tag + ">" + word + "</" + tag + ">";
   }
 }
